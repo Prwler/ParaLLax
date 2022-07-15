@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complaints</title>
+    </head>
+    <body style="font-family:Cursive;">
+        <h1 style="font-size: medium;">COMPLAINTS</h1>
+        <label for="complaints">What's the problem</label><br/>
+        <input type="checkbox" id="demo">Delayed Delivery</input><br/>
+        <input type="checkbox" id="demo">Incorrect Package</input><br/>
+        <input type="checkbox" id="demo">Damaged Package</input><br/>
+        <input type="checkbox" id="demo">Breached/Opened Package</input><br/>
+        <p> Other: </p>
+        <textarea rows="10" cols="40" placeholder="Type your complaint here....."></textarea><br/>
+        <button onclick="getValue()"style="background-color:cyan;border:2px outset powderblue;border-radius:4px;">Submit</button>
+        <script>
+            function getValue() {
+                alert("Your complaint has been submitted!!! ");
+            }
+        </script>
+    </body>
+</html>

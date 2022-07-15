@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment for Regular</title>
+    </head>
+    <body>
+        Payment.<br/>
+        Total Fee:<strong>#5000.</strong>
+        Select card type:<br/><br/>
+        <button>VERVE</button>  <button>VISA</button>  <button>MASTERCARD</button><br/><br/>
+        <style>
+            button{
+                background-color:palegoldenrod;
+                border: 2px ridge red;
+                border-radius:3px;
+            }
+        </style>
+        Enter card number:<br/>
+        <input type="tel"/><br/><br/>
+        Expiry Date:<br/>
+        <input type="text" placeholder="MM/YY" style="width:45px;"/><br/><br/>
+        CVV:<br/>
+        <input type="text" placeholder="000" style="width:40px;"/><br/><br/>
+        <button onclick="getValue()"style="background-color:cyan;border:2px solid red;border-radius:4px;">PAY</button>
+        <script>
+            function getValue() {
+                alert("You should be debited soon. If not try again.");
+            }
+        </script>
+    </body>
+</html>
